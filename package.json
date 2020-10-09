@@ -1,0 +1,12 @@
+{
+  "name": "typescript_blockchain",
+  "version": "1.0.0",
+  "description": "making a blockchain with typescript",
+  "main": "index.js",
+  "author": "JaeHwan <ahhancom@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/jxxh-div/typescript_blockchain.git",
+  "scripts" : {
+    "start" : "tsc && node index.js"
+  }
+}
