@@ -6,7 +6,14 @@
   "author": "JaeHwan <ahhancom@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/jxxh-div/typescript_blockchain.git",
-  "scripts" : {
-    "start" : "tsc && node index.js"
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\""
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "typescript": "^4.0.3"
   }
 }
